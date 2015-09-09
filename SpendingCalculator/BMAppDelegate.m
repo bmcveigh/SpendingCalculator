@@ -7,12 +7,15 @@
 //
 
 #import "BMAppDelegate.h"
+#import "BMViewController.h"
+#import "BMTableViewController.h"
 
 @implementation BMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
     return YES;
 }
 							

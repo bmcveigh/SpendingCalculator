@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DAB16F41818A5900029EA34 /* BMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAB16F31818A5900029EA34 /* BMTableViewController.m */; };
 		7DCC106C181897360012C9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCC106B181897360012C9DA /* Foundation.framework */; };
 		7DCC106E181897360012C9DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCC106D181897360012C9DA /* CoreGraphics.framework */; };
 		7DCC1070181897360012C9DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCC106F181897360012C9DA /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		7DCC108D181897360012C9DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCC106F181897360012C9DA /* UIKit.framework */; };
 		7DCC1095181897360012C9DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DCC1093181897360012C9DA /* InfoPlist.strings */; };
 		7DCC1097181897360012C9DA /* SpendingCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCC1096181897360012C9DA /* SpendingCalculatorTests.m */; };
+		7DF6C2321818C200009F3B6C /* BMEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF6C2311818C200009F3B6C /* BMEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DAB16F21818A5900029EA34 /* BMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMTableViewController.h; sourceTree = "<group>"; };
+		7DAB16F31818A5900029EA34 /* BMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMTableViewController.m; sourceTree = "<group>"; };
 		7DCC1068181897360012C9DA /* SpendingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCC106B181897360012C9DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DCC106D181897360012C9DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		7DCC1092181897360012C9DA /* SpendingCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpendingCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		7DCC1094181897360012C9DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DCC1096181897360012C9DA /* SpendingCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpendingCalculatorTests.m; sourceTree = "<group>"; };
+		7DF6C2301818C200009F3B6C /* BMEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEntry.h; sourceTree = "<group>"; };
+		7DF6C2311818C200009F3B6C /* BMEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				7DCC107D181897360012C9DA /* Main.storyboard */,
 				7DCC1080181897360012C9DA /* BMViewController.h */,
 				7DCC1081181897360012C9DA /* BMViewController.m */,
+				7DAB16F21818A5900029EA34 /* BMTableViewController.h */,
+				7DAB16F31818A5900029EA34 /* BMTableViewController.m */,
+				7DF6C2301818C200009F3B6C /* BMEntry.h */,
+				7DF6C2311818C200009F3B6C /* BMEntry.m */,
 				7DCC1083181897360012C9DA /* Images.xcassets */,
 				7DCC1072181897360012C9DA /* Supporting Files */,
 			);
@@ -250,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DAB16F41818A5900029EA34 /* BMTableViewController.m in Sources */,
 				7DCC1082181897360012C9DA /* BMViewController.m in Sources */,
 				7DCC1078181897360012C9DA /* main.m in Sources */,
+				7DF6C2321818C200009F3B6C /* BMEntry.m in Sources */,
 				7DCC107C181897360012C9DA /* BMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +473,7 @@
 				7DCC109C181897360012C9DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DCC109D181897360012C9DA /* Build configuration list for PBXNativeTarget "SpendingCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				7DCC109F181897360012C9DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
